@@ -1,0 +1,9 @@
+{
+	"name": "deADFx",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "040afdcc-a094-4715-8d82-3d156de2a6e7",
+		"tenantId": "72c6058b-1a86-4609-a34e-8995bb0087cf"
+	}
+}
