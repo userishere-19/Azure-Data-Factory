@@ -1,7 +1,4 @@
 # Azure-Data-Factory
-
-# Azure-Data-Factory
-
 ## 📘 Dynamic Copy of Multiple Azure SQL Database Tables to Azure Data Lake Storage Gen2
 
 Welcome to **Dynamic Azure Data Factory Integration**! This project demonstrates how to use Azure Data Factory to **dynamically extract and copy multiple tables from an Azure SQL Database** into Azure Data Lake Storage Gen2 (ADLS Gen2). The solution is metadata-driven and does **not require hardcoding of table names** — making it highly scalable and maintainable across large databases.
@@ -14,8 +11,6 @@ Welcome to **Dynamic Azure Data Factory Integration**! This project demonstrates
 - Leverage ADF’s Lookup and ForEach activities to drive dynamic data movement.
 - Copy each table’s data into a structured ADLS Gen2 location using parameterized datasets and linked services.
 
-...
-
 ## 🧾 Metadata Table Example
 
 The following SQL query is used to extract the table metadata from Azure SQL DB:
@@ -26,7 +21,7 @@ SELECT
     QUOTENAME(SCHEMA_NAME(t.schema_id)) AS schemaName 
 FROM 
     sys.tables AS t
-
+```
 ---
 
 Sample Output:
